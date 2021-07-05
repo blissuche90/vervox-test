@@ -22,7 +22,7 @@ app.get('/productA/:id', (req, res) => {
     res.send(result);
 });
 
-// GET /productA/id
+// GET /productB/id
 app.get('/productB/:id', (req, res) => {
     // req.params.id will be set based on the `:id` in the route
     //return req.params.id;
